@@ -1,1 +1,8 @@
-Just some basics to learn about github
+<html>
+<body> <title> Reminder</title>
+
+<bg color="White", i><h3><u>TO DO LIST</u></h3></i>
+<h4>Clean your room</h4>
+<h5>Dont clean your room</h5>
+</body>
+</html>
