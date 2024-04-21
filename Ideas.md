@@ -8,7 +8,7 @@
 
 ## 4] Disease tester
 
-## 5] Purification KeyChain: 
+## 5] Purification KeyChain: (The "WaKey"--> water+key)
 
     Parts:
 
