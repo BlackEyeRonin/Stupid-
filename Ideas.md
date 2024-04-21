@@ -2,7 +2,7 @@
 
 ## 1] Water ATM - Exists
 
-## 2] Self treating and distributing wells - Not there as I imagine
+## 2] Self treating and distributing wells - Not there as I imagined
 
 ## 3] Shower revolution
 
