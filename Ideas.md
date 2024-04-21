@@ -1,19 +1,21 @@
-## Ideas
+## Ideas:
 
-## Water ATM - Exists
+## 1] Water ATM - Exists
 
-## Self treating and distributing wells - Not there as I imagine
+## 2] Self treating and distributing wells - Not there as I imagine
 
-## Shower revolution
+## 3] Shower revolution
 
-## Disease tester
+## 4] Disease tester
 
-## Purification KeyChain: Parts:
+## 5] Purification KeyChain: 
 
-Nano-filtration Membrane: This is the heart of the device, responsible for removing contaminants from the water.
-Activated Carbon Filter: Helps to remove impurities and improve the taste of the water.
-Housing: Made of durable and lightweight materials to protect the internal components.
-Keychain Attachment: Allows users to easily carry the device with their keys.
+    Parts:
+
+     Nano-filtration Membrane: This is the heart of the device, responsible for removing contaminants from the water.
+     Activated Carbon Filter: Helps to remove impurities and improve the taste of the water.
+     Housing: Made of durable and lightweight materials to protect the internal components.
+     Keychain Attachment: Allows users to easily carry the device with their keys.
 
 Materials:
 Nano-filtration Membrane: Typically made from materials like polymer or ceramic.
