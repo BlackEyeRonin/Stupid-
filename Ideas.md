@@ -34,7 +34,7 @@
     Travelers: Whether hiking in the wilderness or backpacking through foreign countries, travelers often encounter questionable water sources. A portable purification device like this would give them peace of mind knowing they can always have access to clean water.
     This water purification keychain would offer a simple yet effective solution for improving water quality in various settings, empowering people to stay hydrated wherever they are.
 
-## Aquifer Bracelet:
+## 6] Aquifer Bracelet:
 
     Parts:
     Bracelet Band: Made of flexible, waterproof material, adjustable to fit various wrist sizes.
