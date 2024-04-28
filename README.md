@@ -1,9 +1,9 @@
 <html>
 <body> 
-<h1>Reminder</h1>
-<bg color="White",<i><h3><u>TO DO LIST</u></h3></i>
-<h4>~Clean your room</h4>
-<h5>~Dont clean your room</h5>
+<h1>Welcome</h1>
+<bg color="White",<i><h3><u>to this new repository by BlackEyeRonin</u></h3></i>
+<h4>Goal?</h4>
+<h5>Just learn to code.</h5>
 </body>
 </html>
 
