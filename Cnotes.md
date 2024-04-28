@@ -8,8 +8,8 @@
  
  To print text and number together we can put all of that in a single printf statement:
 
-      Example: printf("This is lesson %d of C", 3);
+      Example: printf("No. of apples is %d" and I ate it all, 3);
 
          // Output:
-        // This is lesson 3 of C
+        // No. of apples is 3 and I ate it all
 '//' is for single line comment, " /* */ " is for multi line comment
