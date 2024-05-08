@@ -1,9 +1,15 @@
-<html>
-<body> 
-<h1>Welcome...</h1>
-<bg color="White",<i><h3><u>To this new repository by BlackEyeRonin;</u></h3></i>
-<h3>Goal?</h3>
-<h4>Just learn to code.</h4>
-</body>
-</html>
+**package.json**
+```json
+{
+  "name": "school-app-backend",
+  "version": "1.0.0",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongodb": "^3.6.3",
+    "body-parser": "^1.19.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.2",
+    "bcrypt": "^5.0.1"
+  }
+}
 
