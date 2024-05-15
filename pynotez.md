@@ -25,4 +25,7 @@ eg 2 : sep="" (for print func.)
 
 Computer programs are collections of instructions. An instruction is a command to perform a specific task when executed, e.g., to print a certain message to the screen.
 
+The characteristic of the numeric value which determines its kind, range, and application, is called the type.
+Interger Literals: Python allow the use of underscores in numeric literals.
 
+Therefore, you can write this number either like this: 11111111, or like that: 11_111_111.
