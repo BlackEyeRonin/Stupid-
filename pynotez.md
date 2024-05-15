@@ -29,3 +29,5 @@ The characteristic of the numeric value which determines its kind, range, and ap
 Interger Literals: Python allow the use of underscores in numeric literals.
 
 Therefore, you can write this number either like this: 11111111, or like that: 11_111_111.
+The second convention allows us to use hexadecimal numbers. Such numbers should be preceded by the prefix 0x or 0X (zero-x).
+If an integer number is preceded by an 0O or 0o prefix (zero-o), it will be treated as an octal value. This means that the number must contain digits taken from the [0..7] range only.
