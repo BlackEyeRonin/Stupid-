@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SpaceX Inspired Planets</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #0b0c10; color: #c5c6c7; }  
+        h1 { color: #66fcf1; text-align: center; }
+        ul { list-style-type: none; padding: 0; }
+        li { background: #1f2833; margin: 0.5rem 0; padding: 1rem; border-radius: 0.5rem; }
+        button { background: #45a29e; color: white; border: none; padding: 0.5rem 1rem; cursor: pointer; }
+        button:hover { background: #66fcf1; }
+    </style>
+</head>
+<body>
+    <h1>Planets Data</h1>
+    <ul id="planets-list"></ul>
+
+    <script>
+        // Fetching the planets data from the Flask server
+        fetch('https://zany-space-waddle-r44vr5pg5xrw3xx6g-5000.app.github.dev/')
+            .then(response => response.json())
+            .then(data => {
+                // Logging the fetched data to the console for debugging
+                console.log(data);
+
+                const planetsList = document.getElementById('planets-list');
+                // Checking if data is an array and not empty
+                if (Array.isArray(data) && data.length > 0) {
+                    data.forEach(planet => {
+                        const listItem = document.createElement('li');
+                        listItem.textContent = `${planet.name} - ${planet.habitability.replace('_', ' ')}`;
+                        planetsList.appendChild(listItem);
+                    });
+                } else {
+                    planetsList.textContent = 'No planets data available.';
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                // Display error message in the HTML
+                document.getElementById('planets-list').textContent = 'Error fetching data.';
+            });
+    </script>
+</body>
+</html>

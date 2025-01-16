@@ -15,6 +15,32 @@ class PlanetCalculator:
         self.planets = []
 
     def fetch_planet_data(self):
+        url = "https://api.le-systeme-solaire.net/rest/bodies/"
+        response = requests.get(url)
+        if response.status_code == 200:
+            return response.json()['bodies']
+        else:
+            return None
+
+    # ... (rest of your class code)
+
+    import requests
+import pandas as pd
+
+class PlanetCalculator:
+    def __init__(self):
+        self.habitability_counts = {
+            'habitable': 0,
+            'partially_habitable': 0,
+            'potentially_habitable': 0,
+            'previously_habitable': 0,
+            'non_habitable': 0,
+            'theoretical': 0
+        }
+        self.total_planets = 0
+        self.planets = []
+
+    def fetch_planet_data(self):
         url = "https://api.le-systeme-solaire.net/rest/bodies/"  # Example API for solar system bodies
         response = requests.get(url)
         if response.status_code == 200:
@@ -161,3 +187,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
